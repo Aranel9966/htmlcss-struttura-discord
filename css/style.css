@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: aquamarine;
+    /* /test */
+    padding: 0 100px;
+    
+}
+
+nav{
+
+    height: 50px;
+    background-color: blue;
+    /* /test */
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+
+    height: 50px;
+    min-width: 100px;
+    background-color: blueviolet;
+    /* /test */
+    justify-content: flex-start
+}
+
+#menu{
+    display: flex;
+}
+
+#menu ul{
+    background-color: brown;
+    width: 400px;
+    height: 50px;
+    /* /test */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#menu ul li{
+    background-color:chartreuse;
+    width: 60px;
+    border: 1px solid red;
+    /* /test */
+    list-style-type: none;
+    flex-direction: column;
+    
+}
+#login{
+    min-width: 100px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    /* /test */
+
+}
