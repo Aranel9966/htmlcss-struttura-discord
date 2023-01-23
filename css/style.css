@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-header{
+header,main{
     background-color: aquamarine;
-    height: 400px;
     /* /test */
     padding: 0 100px;
     
@@ -63,7 +62,7 @@ nav{
 }
 
 
-article{
+header article{
     height: 200px;
     background-color: deeppink;
     margin-top: 100px;
@@ -83,4 +82,32 @@ button{
     width: 100px;
     border-radius: 20px;
     border: none;
+}
+
+
+.contain{
+    height: 400px;
+    background-color: crimson;
+    display: flex;
+}
+
+.contain article{
+    background-color: darkgreen;
+    width: 50%;
+    
+    /* /test */
+
+}
+.contain img{
+    background-color: black;
+    width: 50%;
+}
+
+.end-contain{
+    height: 200px;
+    background-color: deeppink;
+    
+    /* /test */
+    text-align: center;
+
 }
