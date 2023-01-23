@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
-header,main{
-    background-color: aquamarine;
+header,main,footer{
+    
     /* /test */
     padding: 0 100px;
-    
-    
+     
 }
+
+header{
+    background-color: aquamarine;
+}
+
 
 nav{
 
@@ -84,6 +88,9 @@ button{
     border: none;
 }
 
+main{
+    background-color: aqua;
+}
 
 .contain{
     height: 400px;
@@ -103,11 +110,68 @@ button{
     width: 50%;
 }
 
+footer{
+    background-color: gray;
+}
+
 .end-contain{
     height: 200px;
     background-color: deeppink;
     
     /* /test */
     text-align: center;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.list{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    /* /test */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.list ul {
+    list-style-type: none;
+    flex-direction: row;
+    border: 1px solid white
+}
+
+#social{
+
+    /* /test */
+    width: 400px;
+    background-color: black;
+    
+}
+#end-bar{
+
+    height: 50px;
+    background-color: blue;
+    /* /test */
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#logo2{
+    height: 50px;
+    min-width: 100px;
+    background-color: blueviolet;
+    /* /test */
+    align-items: flex-end;
+}
+#register{
+    height: 50px;
+    min-width: 100px;
+    background-color: rgb(43, 226, 113);
+    /* /test */
+    align-items: flex-end;
 
 }
