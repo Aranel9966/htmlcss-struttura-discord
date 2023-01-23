@@ -6,8 +6,10 @@
 
 header{
     background-color: aquamarine;
+    height: 400px;
     /* /test */
     padding: 0 100px;
+    
     
 }
 
@@ -58,4 +60,27 @@ nav{
     background-color: rgb(255, 0, 0);
     /* /test */
 
+}
+
+
+article{
+    height: 200px;
+    background-color: deeppink;
+    margin-top: 100px;
+    /* /test */
+    text-align: center;
+
+}
+article h1{
+    height: 30px;
+    background-color: darkorange;
+    /* /test */
+}
+
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
 }
